@@ -6,8 +6,30 @@ interface Person {
   subject:string;
 }
 
-let students: Person[] = [];
-let teachers: Person[] = [];
+let students: Person[] = [
+  { name: "Aarav Sharma", subject: "Mathematics" },
+  { name: "Saanvi Gupta", subject: "Physics" },
+  { name: "Ishaan Verma", subject: "Chemistry" },
+  { name: "Meera Iyer", subject: "Biology" },
+  { name: "Rohit Patel", subject: "History" },
+  { name: "Ananya Reddy", subject: "Geography" },
+  { name: "Kartik Singh", subject: "English" },
+  { name: "Pooja Desai", subject: "Computer Science" },
+  { name: "Nikhil Joshi", subject: "Physical Education" },
+  { name: "Priya Nair", subject: "Music" }
+];
+let teachers: Person[] = [
+  { name: "Mr. Rajesh Mehta", subject: "Mathematics" },
+  { name: "Ms. Sunita Deshmukh", subject: "Physics" },
+  { name: "Mrs. Kavita Kulkarni", subject: "Chemistry" },
+  { name: "Dr. Anil Menon", subject: "Biology" },
+  { name: "Prof. Arvind Sinha", subject: "History" },
+  { name: "Ms. Radhika Rao", subject: "Geography" },
+  { name: "Mr. Vikram Ahuja", subject: "English" },
+  { name: "Dr. Suresh Bhatia", subject: "Computer Science" },
+  { name: "Coach Manoj Pandey", subject: "Physical Education" },
+  { name: "Mr. Ramesh Chatterjee", subject: "Music" }
+];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { method } = req;

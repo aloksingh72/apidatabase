@@ -1,4 +1,4 @@
-import Image from "next/image"; // Only keep this if you're using Image elsewhere, otherwise remove it.
+
 import { FC } from "react"; // Import FC type for defining a functional component type.
 
 const Home: FC = () => {

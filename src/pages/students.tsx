@@ -33,15 +33,25 @@ const Students: FC = () => {
   if (error) return <div>{error}</div>;
 
   return (
-    <div className="bg-black w-full h-full text-white p-5">
-      <h2 className="text-2xl mb-4">Students</h2>
-      <ul>
+    <div className="bg-gradient-to-b from-gray-800 to-black min-h-screen text-white p-8 flex justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {students.map((student) => (
-          <li key={student.name} className="mb-1">
-            <strong>{student.name}</strong> - {student.subject}
-          </li>
+          <div
+            key={student.name}
+            className="bg-gradient-to-r from-green-500 to-blue-500 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+          >
+            <div className="flex flex-col items-center">
+              <img
+                src="/students/studentimage.jpg"
+                alt="Student"
+                className="w-24 h-24 mb-4 rounded-full border-4 border-white"
+              />
+              <h3 className="text-xl font-semibold mb-2">{student.name}</h3>
+              <p className="text-gray-200">{student.subject}</p>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

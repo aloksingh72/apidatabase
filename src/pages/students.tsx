@@ -1,3 +1,4 @@
+import "../../src/app/globals.css"
 import { FC, useEffect, useState } from 'react';
 
 interface Person {

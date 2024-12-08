@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 
 const Home: FC = () => {
   const router = useRouter();
-
+//function for gotoTeachers
   const goToTeachers = () => {
     router.push('/teachers');
   };

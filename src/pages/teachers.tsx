@@ -5,7 +5,7 @@ interface Person {
   name: string;
   subject: string;
 }
-
+//
 const Teachers: FC = () => {
   const [teachers, setTeachers] = useState<Person[]>([]);
   const [loading, setLoading] = useState(true);
@@ -29,7 +29,7 @@ const Teachers: FC = () => {
 
     fetchData();
   }, []);
-
+//if loading is true then this div is appeared
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
 

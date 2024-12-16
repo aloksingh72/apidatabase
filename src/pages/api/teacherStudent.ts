@@ -5,7 +5,7 @@ interface Person {
   name: string;
   subject:string;
 }
-
+//students inbuilt  array
 let students: Person[] = [
   { name: "Aarav Sharma", subject: "Mathematics" },
   { name: "Saanvi Gupta", subject: "Physics" },
@@ -18,6 +18,7 @@ let students: Person[] = [
   { name: "Nikhil Joshi", subject: "Physical Education" },
   { name: "Priya Nair", subject: "Music" }
 ];
+//teachers in built data
 let teachers: Person[] = [
   { name: "Mr. Rajesh Mehta", subject: "Mathematics" },
   { name: "Ms. Sunita Deshmukh", subject: "Physics" },

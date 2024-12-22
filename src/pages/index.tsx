@@ -26,7 +26,7 @@ const Home: FC = () => {
         >
           View Teachers
         </button>
-
+//button to go student database
         <button
           onClick={goToStudents}
           className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"

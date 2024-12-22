@@ -20,6 +20,8 @@ const Home: FC = () => {
       </h2>
 
       <div className="flex space-x-8">
+     
+        //button for go to teacher data
         <button
           onClick={goToTeachers}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"

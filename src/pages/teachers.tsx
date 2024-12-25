@@ -32,7 +32,7 @@ const Teachers: FC = () => {
 //if loading is true then this div is appeared
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
-
+// main method start here
   return (
     <div className="bg-black min-h-screen text-white p-5">
       <h2 className="text-4xl mb-8 font-bold text-center">Teachers</h2>

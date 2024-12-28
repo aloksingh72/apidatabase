@@ -6,6 +6,7 @@ interface Person {
   subject:string;
 }
 //students inbuilt  array
+//hard coded data
 let students: Person[] = [
   { name: "Aarav Sharma", subject: "Mathematics" },
   { name: "Saanvi Gupta", subject: "Physics" },

@@ -32,7 +32,7 @@ let teachers: Person[] = [
   { name: "Coach Manoj Pandey", subject: "Physical Education" },
   { name: "Mr. Ramesh Chatterjee", subject: "Music" }
 ];
-
+//handler function
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { method } = req;
 

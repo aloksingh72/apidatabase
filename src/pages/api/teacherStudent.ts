@@ -1,6 +1,6 @@
 // pages/api/teacherStudent.ts
 import { NextApiRequest, NextApiResponse } from 'next';
-
+//typescript 
 interface Person {
   name: string;
   subject:string;

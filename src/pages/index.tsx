@@ -15,9 +15,9 @@ const Home: FC = () => {
 //main function starts here
   return (
     <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 min-h-screen flex flex-col justify-center items-center text-white">
-      <h2 className="text-4xl mb-8 font-bold shadow-lg p-3 rounded-lg">
-        Welcome to the API Database
-      </h2>
+      <h3 className="text-4xl mb-8 font-bold shadow-lg p-3 rounded-lg">
+        Welcome to the API Database website 
+      </h3>
 
       <div className="flex space-x-8">
      

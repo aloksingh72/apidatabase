@@ -32,7 +32,7 @@ const Students: FC = () => {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
-
+//main method starts here
   return (
     <div className="bg-gradient-to-b from-gray-800 to-black min-h-screen text-white p-8 flex justify-center">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

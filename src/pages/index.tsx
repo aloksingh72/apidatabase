@@ -1,3 +1,4 @@
+//import global css
 import "../../src/app/globals.css"
 import { FC } from 'react';
 import { useRouter } from 'next/router';

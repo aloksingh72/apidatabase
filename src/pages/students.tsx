@@ -10,7 +10,7 @@ const Students: FC = () => {
   const [students, setStudents] = useState<Person[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-
+// useEffect hooks
   useEffect(() => {
     const fetchData = async () => {
       try {

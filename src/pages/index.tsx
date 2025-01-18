@@ -41,5 +41,5 @@ const Home: FC = () => {
     </div>
   );
 };
-
+//export the home page
 export default Home;

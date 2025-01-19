@@ -29,7 +29,7 @@ const Students: FC = () => {
 
     fetchData();
   }, []);
-
+//loading conditions 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
 //main method starts here

@@ -27,7 +27,7 @@ const Teachers: FC = () => {
         setLoading(false);
       }
     };
-//edit in place
+//edit in place to fetch data
     fetchData();
   }, []);
 //if loading is true then this div is appeared

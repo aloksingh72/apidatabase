@@ -26,7 +26,7 @@ const Students: FC = () => {
         setLoading(false);
       }
     };
-
+// to fetch the data
     fetchData();
   }, []);
 //loading conditions 

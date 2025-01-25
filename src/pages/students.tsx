@@ -1,6 +1,6 @@
 import "../../src/app/globals.css"
 import { FC, useEffect, useState } from 'react';
-//typescripting
+//typescripting defining datatypes
 interface Person {
   name: string;
   subject: string;

@@ -11,7 +11,7 @@ const Teachers: FC = () => {
   const [teachers, setTeachers] = useState<Person[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-//use effect
+//use effect hook
   useEffect(() => {
     const fetchData = async () => {
       try {

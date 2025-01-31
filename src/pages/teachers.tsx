@@ -58,5 +58,5 @@ const Teachers: FC = () => {
     </div>
   );
 };
-
+// export the teachers 
 export default Teachers;

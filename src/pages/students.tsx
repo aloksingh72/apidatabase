@@ -56,5 +56,5 @@ const Students: FC = () => {
     </div>
   );
 };
-
+//export the students function 
 export default Students;

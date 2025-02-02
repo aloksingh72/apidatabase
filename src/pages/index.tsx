@@ -2,7 +2,7 @@
 import "../../src/app/globals.css"
 import { FC } from 'react';
 import { useRouter } from 'next/router';
-//useRouter 
+//useRouter hooks
 const Home: FC = () => {
   const router = useRouter();
 //function for gotoTeachers

@@ -1,5 +1,6 @@
 //teachers typescript file
 import "../../src/app/globals.css"
+//importing useeffect and usestate
 import { FC, useEffect, useState } from 'react';
 //typescript declaration 
 interface Person {

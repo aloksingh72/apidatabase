@@ -34,7 +34,7 @@ const Teachers: FC = () => {
 //if loading is true then this div is appeared
   if (loading) return <div>Loading...</div>;
   //loading div
-  
+  //error messages
   if (error) return <div>{error}</div>;
 // main method start here
   return (

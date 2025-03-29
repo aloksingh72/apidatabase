@@ -9,7 +9,7 @@ const Home: FC = () => {
   const goToTeachers = () => {
     router.push('/teachers');
   };
-  //edited
+  //edited gotostudents
 //go to student function
   const goToStudents = () => {
     router.push('/students');

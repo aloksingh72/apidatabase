@@ -1,6 +1,8 @@
 //import global css
 import "../../src/app/globals.css"
 import { FC } from 'react';
+//use router
+
 import { useRouter } from 'next/router';
 //useRouter hooks
 const Home: FC = () => {

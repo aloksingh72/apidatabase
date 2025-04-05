@@ -23,6 +23,7 @@ const Teachers: FC = () => {
         const data = await response.json();
         setTeachers(data.teachers);
         setLoading(false);
+        //catching error
       } catch (err) {
         setError('Failed to fetch data');
         setLoading(false);

@@ -30,7 +30,7 @@ const Teachers: FC = () => {
       }
     };
 //edit in place to fetch data
-    fetchData();
+    fetchData();//Fetch data
   }, []);
 //if loading is true then this div is appeared
   if (loading) return <div>Loading...</div>;

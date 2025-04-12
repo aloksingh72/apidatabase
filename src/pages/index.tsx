@@ -1,5 +1,6 @@
 //import global css
 import "../../src/app/globals.css"
+// importing fc react
 import { FC } from 'react';
 //use router
 

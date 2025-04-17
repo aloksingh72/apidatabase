@@ -3,7 +3,7 @@ import "../../src/app/globals.css"
 // importing fc react
 import { FC } from 'react';
 //use router
-
+//use router components 
 import { useRouter } from 'next/router';
 //useRouter hooks
 const Home: FC = () => {

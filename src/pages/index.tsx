@@ -1,4 +1,5 @@
 //import global css
+//global.css
 import "../../src/app/globals.css"
 // importing fc react
 import { FC } from 'react';

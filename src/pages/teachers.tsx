@@ -7,6 +7,7 @@ interface Person {
   name: string;
   subject: string;
 }
+//
 //teacher functions
 const Teachers: FC = () => {
   const [teachers, setTeachers] = useState<Person[]>([]);
@@ -24,6 +25,8 @@ const Teachers: FC = () => {
         setTeachers(data.teachers);
         setLoading(false);
         //catching error
+        //catch 
+        
       } catch (err) {
         setError('Failed to fetch data');
         setLoading(false);

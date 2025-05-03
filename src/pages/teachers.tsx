@@ -1,3 +1,4 @@
+//import globals.css 
 //teachers typescript file
 import "../../src/app/globals.css"
 //importing useeffect and usestate

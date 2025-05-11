@@ -31,6 +31,7 @@ const Students: FC = () => {
   }, []);
 //loading conditions 
   if (loading) return <div>Loading...</div>;
+// error messages teturn 
   if (error) return <div>{error}</div>;
 //main method starts here
   return (

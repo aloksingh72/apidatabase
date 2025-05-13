@@ -5,6 +5,7 @@ interface Person {
   name: string;
   subject: string;
 }
+// student function
 //students function 
 const Students: FC = () => {
   const [students, setStudents] = useState<Person[]>([]);

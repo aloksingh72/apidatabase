@@ -1,3 +1,4 @@
+//import global.css
 import "../../src/app/globals.css"
 import { FC, useEffect, useState } from 'react';
 //typescripting defining datatypes

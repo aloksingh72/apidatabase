@@ -8,6 +8,7 @@ import { FC } from 'react';
 //use router components 
 import { useRouter } from 'next/router';
 //useRouter hooks
+// home function
 const Home: FC = () => {
   const router = useRouter();
   //constant function 

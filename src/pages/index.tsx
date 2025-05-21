@@ -14,6 +14,7 @@ const Home: FC = () => {
   //constant function 
 //function for gotoTeachers
   const goToTeachers = () => {
+    //router.push
     router.push('/teachers');
   };
   // go to student

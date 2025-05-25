@@ -1,5 +1,6 @@
 // import meta data
 import type { Metadata } from "next";
+// import local front
 import localFont from "next/font/local";
 import "./globals.css";
 import Head from "next/head"; // Import Head from next/head

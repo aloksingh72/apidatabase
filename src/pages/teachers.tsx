@@ -14,6 +14,7 @@ const Teachers: FC = () => {
   const [teachers, setTeachers] = useState<Person[]>([]);
   // loading userState
   const [loading, setLoading] = useState(true);
+  // error user state
   const [error, setError] = useState<string | null>(null);
 //use effect hook
   useEffect(() => {

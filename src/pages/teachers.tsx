@@ -12,6 +12,7 @@ interface Person {
 //teacher functions
 const Teachers: FC = () => {
   const [teachers, setTeachers] = useState<Person[]>([]);
+  // loading userState
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 //use effect hook

@@ -9,7 +9,7 @@ interface Person {
   name: string;
   subject: string;
 }
-//
+// teachere functions
 //teacher functions
 const Teachers: FC = () => {
   const [teachers, setTeachers] = useState<Person[]>([]);

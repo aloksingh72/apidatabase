@@ -1,6 +1,8 @@
 // pages/api/teacherStudent.ts
 import { NextApiRequest, NextApiResponse } from 'next';
 //typescript 
+
+// datatypes definition 
 interface Person {
   name: string;
   subject:string;
